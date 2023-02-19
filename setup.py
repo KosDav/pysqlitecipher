@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sqliteencrypt", # Replace with your own username
-    version="0.22",
+    version="0.30",
     author="Dave Kosik",
     author_email="dave@draegyn.com",
     description="Light weight, easy to use sqlite wrapper with built in encryption. AN extension to Harsh Native version.",
