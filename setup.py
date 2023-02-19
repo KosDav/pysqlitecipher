@@ -6,14 +6,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pysqlitecipher", # Replace with your own username
+    name="sqliteencrypt", # Replace with your own username
     version="0.22",
-    author="Harsh Native",
-    author_email="Harshnative@gmail.com",
-    description="Ligth weigth and easy to use sqlite wrapper with built in encryption system.",
+    author="Dave Kosik",
+    author_email="dave@draegyn.com",
+    description="Light weight, easy to use sqlite wrapper with built in encryption. AN extension to Harsh Native version.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/harshnative/pysqlitecipher",
+    url="https://github.com/KosDav/pysqlitecipher",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
